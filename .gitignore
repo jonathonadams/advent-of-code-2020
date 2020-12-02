@@ -42,3 +42,4 @@ Thumbs.db
 /target
 /pkg
 Cargo.lock
+main.rs

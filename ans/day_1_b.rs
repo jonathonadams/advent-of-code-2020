@@ -69,7 +69,7 @@ pub fn calculate_expense() {
                         start = tuple[0];
                         end = tuple[1];
                     }
-                    None => println!("An error occurred. {} is not a key", temp),
+                    None => alert!(&format!("An error occurred. {} is not a key", temp)),
                 }
 
                 break;

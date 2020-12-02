@@ -16,7 +16,7 @@ $ wasm-pack build --release --target web
 
 Copy `advent_of_code_2020.js` & `advent_of_code_2020_bg.wasm` from the `/pkg` directory to the `/public` directory.
 
-Run the wab server
+Run the web server
 ```bash
 $ go run main.go
 ```
